@@ -12,6 +12,11 @@
 		2BDCFA9E1ED8184100EE4B2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BDCFA9C1ED8184100EE4B2B /* Main.storyboard */; };
 		2BDCFAA01ED8184100EE4B2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BDCFA9F1ED8184100EE4B2B /* Assets.xcassets */; };
 		2BDCFAA31ED8184100EE4B2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BDCFAA11ED8184100EE4B2B /* LaunchScreen.storyboard */; };
+		2BDCFAAB1ED8199D00EE4B2B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2BDCFAAA1ED8199C00EE4B2B /* GoogleService-Info.plist */; };
+		2BDCFAAD1EE1503E00EE4B2B /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCFAAC1EE1503E00EE4B2B /* AuthViewController.swift */; };
+		2BDCFAAF1EEA7DC900EE4B2B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCFAAE1EEA7DC900EE4B2B /* MainViewController.swift */; };
+		2BDCFAB11EEA8F0F00EE4B2B /* PreAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCFAB01EEA8F0F00EE4B2B /* PreAuthViewController.swift */; };
+		E62344858A12850C22106194 /* Pods_Gilstalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1CE950B80B86FB99145B27A /* Pods_Gilstalk.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,13 @@
 		2BDCFA9F1ED8184100EE4B2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BDCFAA21ED8184100EE4B2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2BDCFAA41ED8184100EE4B2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BDCFAAA1ED8199C00EE4B2B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2BDCFAAC1EE1503E00EE4B2B /* AuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		2BDCFAAE1EEA7DC900EE4B2B /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		2BDCFAB01EEA8F0F00EE4B2B /* PreAuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreAuthViewController.swift; sourceTree = "<group>"; };
+		33E1CE254CF290994A4F6D4B /* Pods-Gilstalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gilstalk.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gilstalk/Pods-Gilstalk.release.xcconfig"; sourceTree = "<group>"; };
+		C1CE950B80B86FB99145B27A /* Pods_Gilstalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gilstalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD447C4D843AF739BA43A6DB /* Pods-Gilstalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gilstalk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gilstalk/Pods-Gilstalk.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E62344858A12850C22106194 /* Pods_Gilstalk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +53,8 @@
 			children = (
 				2BDCFA971ED8184100EE4B2B /* Gilstalk */,
 				2BDCFA961ED8184100EE4B2B /* Products */,
+				FC11F45AF76AE28ED02753E0 /* Pods */,
+				6A3E097FBBBF18CAD3E28A4F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +75,29 @@
 				2BDCFA9F1ED8184100EE4B2B /* Assets.xcassets */,
 				2BDCFAA11ED8184100EE4B2B /* LaunchScreen.storyboard */,
 				2BDCFAA41ED8184100EE4B2B /* Info.plist */,
+				2BDCFAAA1ED8199C00EE4B2B /* GoogleService-Info.plist */,
+				2BDCFAAC1EE1503E00EE4B2B /* AuthViewController.swift */,
+				2BDCFAAE1EEA7DC900EE4B2B /* MainViewController.swift */,
+				2BDCFAB01EEA8F0F00EE4B2B /* PreAuthViewController.swift */,
 			);
 			path = Gilstalk;
+			sourceTree = "<group>";
+		};
+		6A3E097FBBBF18CAD3E28A4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1CE950B80B86FB99145B27A /* Pods_Gilstalk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC11F45AF76AE28ED02753E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD447C4D843AF739BA43A6DB /* Pods-Gilstalk.debug.xcconfig */,
+				33E1CE254CF290994A4F6D4B /* Pods-Gilstalk.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2BDCFAA71ED8184100EE4B2B /* Build configuration list for PBXNativeTarget "Gilstalk" */;
 			buildPhases = (
+				09763A4B12066A4E71198BBD /* [CP] Check Pods Manifest.lock */,
 				2BDCFA911ED8184100EE4B2B /* Sources */,
 				2BDCFA921ED8184100EE4B2B /* Frameworks */,
 				2BDCFA931ED8184100EE4B2B /* Resources */,
+				2DAFD83A8A9E8A881BB83F60 /* [CP] Embed Pods Frameworks */,
+				669E9B515274D580C98D6C85 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BDCFAA31ED8184100EE4B2B /* LaunchScreen.storyboard in Resources */,
+				2BDCFAAB1ED8199D00EE4B2B /* GoogleService-Info.plist in Resources */,
 				2BDCFAA01ED8184100EE4B2B /* Assets.xcassets in Resources */,
 				2BDCFA9E1ED8184100EE4B2B /* Main.storyboard in Resources */,
 			);
@@ -131,13 +171,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09763A4B12066A4E71198BBD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2DAFD83A8A9E8A881BB83F60 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gilstalk/Pods-Gilstalk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		669E9B515274D580C98D6C85 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gilstalk/Pods-Gilstalk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2BDCFA911ED8184100EE4B2B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2BDCFA9B1ED8184100EE4B2B /* ViewController.swift in Sources */,
+				2BDCFAB11EEA8F0F00EE4B2B /* PreAuthViewController.swift in Sources */,
+				2BDCFAAD1EE1503E00EE4B2B /* AuthViewController.swift in Sources */,
 				2BDCFA991ED8184100EE4B2B /* AppDelegate.swift in Sources */,
+				2BDCFAAF1EEA7DC900EE4B2B /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +349,7 @@
 		};
 		2BDCFAA81ED8184100EE4B2B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD447C4D843AF739BA43A6DB /* Pods-Gilstalk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Gilstalk/Info.plist;
@@ -270,6 +362,7 @@
 		};
 		2BDCFAA91ED8184100EE4B2B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33E1CE254CF290994A4F6D4B /* Pods-Gilstalk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Gilstalk/Info.plist;
@@ -299,6 +392,7 @@
 				2BDCFAA91ED8184100EE4B2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
